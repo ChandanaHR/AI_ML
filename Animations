@@ -305,6 +305,329 @@
 | 299 | 🔄 Pattern Repeats and Shifts      | `tile()` + `roll()` |
 | 300 | 🔢 Two Arrays Alternate            | slicing             |
 
+Pandas animation
+| #  | Animation                    |
+| -- | ---------------------------- |
+| 1  | DataFrame Appears Row by Row |
+| 2  | DataFrame Columns Appear     |
+| 3  | DataFrame Index Appears      |
+| 4  | Create Empty DataFrame       |
+| 5  | Add First Row                |
+| 6  | Add Multiple Rows            |
+| 7  | Add One Column               |
+| 8  | Add Multiple Columns         |
+| 9  | Remove One Column            |
+| 10 | Remove Multiple Columns      |
+| 11 | Rename One Column            |
+| 12 | Rename Multiple Columns      |
+| 13 | Change Column Order          |
+| 14 | Change Index                 |
+| 15 | Reset Index                  |
+| 16 | Set Column as Index          |
+| 17 | DataFrame Shape Appears      |
+| 18 | Number of Rows               |
+| 19 | Number of Columns            |
+| 20 | Column Names Appear          |
+| 21 | Data Types Appear            |
+| 22 | `head()` Animation           |
+| 23 | `tail()` Animation           |
+| 24 | `sample()` Animation         |
+| 25 | `info()` Visualization       |
+| 26 | `describe()` Visualization   |
+| 27 | `size` Visualization         |
+| 28 | `ndim` Visualization         |
+| 29 | `empty` Check                |
+| 30 | DataFrame Transpose          |
+| #  | Animation                 |
+| -- | ------------------------- |
+| 31 | Select One Column         |
+| 32 | Select Two Columns        |
+| 33 | Select Three Columns      |
+| 34 | Select First Row          |
+| 35 | Select Last Row           |
+| 36 | Select Row by Position    |
+| 37 | Select Rows 1–3           |
+| 38 | Select Alternate Rows     |
+| 39 | Select Even Rows          |
+| 40 | Select Odd Rows           |
+| 41 | `loc[]` Selection         |
+| 42 | `iloc[]` Selection        |
+| 43 | Select Cell               |
+| 44 | Select First Cell         |
+| 45 | Select Last Cell          |
+| 46 | Select Column by Position |
+| 47 | Select Row by Label       |
+| 48 | Select Multiple Rows      |
+| 49 | Select Multiple Columns   |
+| 50 | Row + Column Selection    |
+| 51 | First 2 Rows              |
+| 52 | Last 2 Rows               |
+| 53 | Every 2nd Row             |
+| 54 | Every 3rd Row             |
+| 55 | Reverse Rows              |
+| 56 | Reverse Columns           |
+| 57 | First Column Highlight    |
+| 58 | Last Column Highlight     |
+| 59 | Diagonal Cells            |
+| 60 | Random Cell Selection     |
+| #  | Animation               |   |
+| -- | ----------------------- | - |
+| 61 | Filter Age > 20         |   |
+| 62 | Filter Age < 30         |   |
+| 63 | Filter Age == 25        |   |
+| 64 | Filter Score > 50       |   |
+| 65 | Filter Score > 80       |   |
+| 66 | Filter Score < 50       |   |
+| 67 | Filter Name             |   |
+| 68 | Filter Multiple Values  |   |
+| 69 | Filter Using `&`        |   |
+| 70 | Filter Using `          | ` |
+| 71 | Filter Using `~`        |   |
+| 72 | Two Conditions          |   |
+| 73 | Three Conditions        |   |
+| 74 | Filter Even Numbers     |   |
+| 75 | Filter Odd Numbers      |   |
+| 76 | Filter Positive Numbers |   |
+| 77 | Filter Negative Numbers |   |
+| 78 | Filter Zero Values      |   |
+| 79 | Filter Range            |   |
+| 80 | Filter Between Values   |   |
+| 81 | `isin()` Animation      |   |
+| 82 | `between()` Animation   |   |
+| 83 | `query()` Animation     |   |
+| 84 | Filter Names Starting A |   |
+| 85 | Filter Names Ending A   |   |
+| 86 | Filter String Contains  |   |
+| 87 | Filter String Length    |   |
+| 88 | Filter Duplicate Rows   |   |
+| 89 | Filter Unique Rows      |   |
+| 90 | Filter Missing Values   |   |
+| #   | Animation                |
+| --- | ------------------------ |
+| 91  | Sort Numbers Ascending   |
+| 92  | Sort Numbers Descending  |
+| 93  | Sort Names A–Z           |
+| 94  | Sort Names Z–A           |
+| 95  | Sort by Score            |
+| 96  | Sort by Age              |
+| 97  | Sort by Two Columns      |
+| 98  | Sort by Three Columns    |
+| 99  | Sort Index               |
+| 100 | Reverse Sort             |
+| 101 | Highest Score Moves Up   |
+| 102 | Lowest Score Moves Up    |
+| 103 | Top 3 Scores             |
+| 104 | Bottom 3 Scores          |
+| 105 | Top 5 Values             |
+| 106 | Bottom 5 Values          |
+| 107 | Ranking Students         |
+| 108 | Ranking Products         |
+| 109 | Ranking Employees        |
+| 110 | Ranking Players          |
+| 111 | Sort Positive/Negative   |
+| 112 | Sort String Length       |
+| 113 | Sort Dates               |
+| 114 | Sort Months              |
+| 115 | Sort Multiple Data Types |
+| 116 | `nlargest()`             |
+| 117 | `nsmallest()`            |
+| 118 | Sort Before/After        |
+| 119 | Sort + Filter            |
+| 120 | Sort + Highlight Maximum |
+| #   | Animation               |
+| --- | ----------------------- |
+| 121 | `sum()`                 |
+| 122 | `mean()`                |
+| 123 | `median()`              |
+| 124 | `mode()`                |
+| 125 | `min()`                 |
+| 126 | `max()`                 |
+| 127 | `count()`               |
+| 128 | `std()`                 |
+| 129 | `var()`                 |
+| 130 | `product()`             |
+| 131 | Add Two Columns         |
+| 132 | Subtract Two Columns    |
+| 133 | Multiply Two Columns    |
+| 134 | Divide Two Columns      |
+| 135 | Percentage Calculation  |
+| 136 | Increase Values         |
+| 137 | Decrease Values         |
+| 138 | Double Values           |
+| 139 | Half Values             |
+| 140 | Square Values           |
+| 141 | Cube Values             |
+| 142 | Absolute Values         |
+| 143 | Round Values            |
+| 144 | Floor Values            |
+| 145 | Ceiling Values          |
+| 146 | Cumulative Sum          |
+| 147 | Cumulative Product      |
+| 148 | Difference Between Rows |
+| 149 | Percentage Change       |
+| 150 | Running Average         |
+| #   | Animation                     |
+| --- | ----------------------------- |
+| 151 | Missing Value Appears         |
+| 152 | `isna()`                      |
+| 153 | `isnull()`                    |
+| 154 | Count Missing Values          |
+| 155 | Find Missing Rows             |
+| 156 | Find Missing Columns          |
+| 157 | Fill Missing with 0           |
+| 158 | Fill Missing with Mean        |
+| 159 | Fill Missing with Median      |
+| 160 | Fill Missing with Mode        |
+| 161 | Forward Fill                  |
+| 162 | Backward Fill                 |
+| 163 | Drop Missing Row              |
+| 164 | Drop Missing Column           |
+| 165 | Drop All-Missing Rows         |
+| 166 | Drop All-Missing Columns      |
+| 167 | Missing → Filled              |
+| 168 | Missing → Removed             |
+| 169 | Compare Before/After          |
+| 170 | Missing Value Counter         |
+| 171 | NaN Percentage                |
+| 172 | Replace NaN                   |
+| 173 | Replace Multiple NaNs         |
+| 174 | Missing Score Animation       |
+| 175 | Missing Age Animation         |
+| 176 | Missing Name Animation        |
+| 177 | Missing Price Animation       |
+| 178 | Missing Date Animation        |
+| 179 | Missing Category Animation    |
+| 180 | Complete Missing-Data Cleanup |
+| #   | Animation                  |
+| --- | -------------------------- |
+| 181 | Convert Text to Lowercase  |
+| 182 | Convert Text to Uppercase  |
+| 183 | Capitalize Names           |
+| 184 | String Length              |
+| 185 | Find Text                  |
+| 186 | String Contains            |
+| 187 | String Starts With         |
+| 188 | String Ends With           |
+| 189 | Replace Text               |
+| 190 | Remove Spaces              |
+| 191 | Add Prefix                 |
+| 192 | Add Suffix                 |
+| 193 | Extract First Character    |
+| 194 | Extract Last Character     |
+| 195 | Extract First 3 Characters |
+| 196 | Extract Last 3 Characters  |
+| 197 | Split Names                |
+| 198 | Join Strings               |
+| 199 | Reverse Strings            |
+| 200 | Count Characters           |
+| 201 | Count Words                |
+| 202 | Find Email Domain          |
+| 203 | Extract Username           |
+| 204 | Extract Domain             |
+| 205 | Replace Names              |
+| 206 | Clean Spaces               |
+| 207 | Remove Special Characters  |
+| 208 | Compare Two Strings        |
+| 209 | Find Duplicate Names       |
+| 210 | Unique Names               |
+| #   | Animation                     |
+| --- | ----------------------------- |
+| 211 | Basic `groupby()`             |
+| 212 | Group by Department           |
+| 213 | Group by City                 |
+| 214 | Group by Category             |
+| 215 | Group by Gender               |
+| 216 | Group by Month                |
+| 217 | Group by Year                 |
+| 218 | Group + Sum                   |
+| 219 | Group + Mean                  |
+| 220 | Group + Count                 |
+| 221 | Group + Max                   |
+| 222 | Group + Min                   |
+| 223 | Group + Median                |
+| 224 | Group + Multiple Aggregations |
+| 225 | Sales by Category             |
+| 226 | Salary by Department          |
+| 227 | Students by Class             |
+| 228 | Products by Brand             |
+| 229 | Orders by City                |
+| 230 | Employees by Location         |
+| 231 | Group + Sort                  |
+| 232 | Group + Filter                |
+| 233 | Group + Ranking               |
+| 234 | Group + Percentage            |
+| 235 | Group + Top Value             |
+| 236 | Group + Bottom Value          |
+| 237 | Group + Maximum               |
+| 238 | Group + Minimum               |
+| 239 | Group + Average               |
+| 240 | GroupBy Transformation        |
+| #   | Animation               |
+| --- | ----------------------- |
+| 241 | `concat()` Vertically   |
+| 242 | `concat()` Horizontally |
+| 243 | Two DataFrames Join     |
+| 244 | Three DataFrames Join   |
+| 245 | `merge()` Basic         |
+| 246 | Inner Merge             |
+| 247 | Left Merge              |
+| 248 | Right Merge             |
+| 249 | Outer Merge             |
+| 250 | Merge on ID             |
+| 251 | Merge on Name           |
+| 252 | Merge Two Tables        |
+| 253 | Merge Three Tables      |
+| 254 | Before Merge            |
+| 255 | After Merge             |
+| 256 | Duplicate IDs           |
+| 257 | Matching IDs            |
+| 258 | Non-Matching IDs        |
+| 259 | Missing After Merge     |
+| 260 | Merge + Filter          |
+| 261 | Merge + Sort            |
+| 262 | Merge + Calculate       |
+| 263 | Append Rows             |
+| 264 | Stack DataFrames        |
+| 265 | Combine Monthly Data    |
+| 266 | Combine Student Data    |
+| 267 | Combine Sales Data      |
+| 268 | Combine Employee Data   |
+| 269 | Combine Product Data    |
+| 270 | Combine Yearly Data     |
+| #   | Animation                        |
+| --- | -------------------------------- |
+| 271 | Numbers Enter DataFrame          |
+| 272 | Numbers Leave DataFrame          |
+| 273 | Rows Falling Into DataFrame      |
+| 274 | Columns Sliding In               |
+| 275 | Column Sliding Out               |
+| 276 | Filtered Rows Disappear          |
+| 277 | Sorted Rows Move                 |
+| 278 | Maximum Value Glows              |
+| 279 | Minimum Value Glows              |
+| 280 | Average Line Appears             |
+| 281 | Duplicate Rows Merge             |
+| 282 | Duplicate Rows Disappear         |
+| 283 | Missing Values Turn Into Numbers |
+| 284 | Missing Rows Vanish              |
+| 285 | DataFrame Expands                |
+| 286 | DataFrame Shrinks                |
+| 287 | Index Counts Up                  |
+| 288 | Index Counts Down                |
+| 289 | Column Names Pop In              |
+| 290 | Row Names Pop In                 |
+| 291 | `head()` Zoom                    |
+| 292 | `tail()` Zoom                    |
+| 293 | Filter Funnel Animation          |
+| 294 | Sort Arrow Animation             |
+| 295 | Grouping Rows Together           |
+| 296 | Groups Separate                  |
+| 297 | Two DataFrames Merge Visually    |
+| 298 | DataFrame → Bar Chart            |
+| 299 | DataFrame → Line Chart           |
+| 300 | Raw Data → Clean Data            |
+
+
 
 
 | #  | Animation Idea              | NumPy Concepts                  |
