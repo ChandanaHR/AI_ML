@@ -100,6 +100,211 @@
 |  98 | 🔄 Matrix Shifts                 | `roll()`                 |
 |  99 | 💫 Values Pulse In-Out           | `sin()`                  |
 | 100 | 🌊 Simple Wave                   | `sin()`                  |
+|   # | Animation Idea                   | NumPy Concept                  |
+| --: | -------------------------------- | ------------------------------ |
+| 101 | 🔢 Numbers Pop Up                | `zeros()` + indexing           |
+| 102 | 🔢 Numbers Fall Down             | indexing                       |
+| 103 | 🔢 Numbers Move Up               | indexing                       |
+| 104 | 🔢 Numbers Move Sideways         | `roll()`                       |
+| 105 | 🔢 Numbers Swap Places           | indexing                       |
+| 106 | 🔢 First Number Becomes Last     | `roll()`                       |
+| 107 | 🔢 Last Number Becomes First     | `roll()`                       |
+| 108 | 🔢 Numbers Expand                | `repeat()`                     |
+| 109 | 🔢 Numbers Contract              | slicing                        |
+| 110 | 🔢 Numbers Duplicate             | `repeat()`                     |
+| 111 | 🔢 Numbers Vanish in Pairs       | slicing                        |
+| 112 | 🔢 Numbers Appear in Pairs       | slicing                        |
+| 113 | 🔢 Numbers Group Together        | `reshape()`                    |
+| 114 | 🔢 Numbers Split Apart           | `flatten()`                    |
+| 115 | 🔢 Numbers Form Groups           | `reshape()`                    |
+| 116 | 🔢 Numbers Change Position       | indexing                       |
+| 117 | 🔢 First Half Appears            | slicing                        |
+| 118 | 🔢 Second Half Appears           | slicing                        |
+| 119 | 🔢 Middle Numbers Appear         | slicing                        |
+| 120 | 🔢 Middle Numbers Disappear      | slicing                        |
+| 121 | 🔢 Every Second Number Lights Up | slicing                        |
+| 122 | 🔢 Every Third Number Lights Up  | slicing                        |
+| 123 | 🔢 Alternate Numbers Switch      | indexing                       |
+| 124 | 🔢 Numbers Turn Into Zeros       | `zeros()`                      |
+| 125 | 🔢 Zeros Turn Into Numbers       | indexing                       |
+| 126 | 🔢 Numbers Turn Into Ones        | `ones()`                       |
+| 127 | 🔢 Ones Turn Into Zeros          | indexing                       |
+| 128 | 🔢 Numbers Count by 5            | `arange()`                     |
+| 129 | 🔢 Numbers Count by 10           | `arange()`                     |
+| 130 | 🔢 Negative Numbers Appear       | `arange()`                     |
+| 131 | ➖ Positive to Negative           | `-`                            |
+| 132 | ➕ Negative to Positive           | `-`                            |
+| 133 | 🔢 Absolute Value Reveal         | `abs()`                        |
+| 134 | 🔢 Numbers Become Positive       | `abs()`                        |
+| 135 | 🔢 Numbers Become Negative       | `negative()`                   |
+| 136 | 🔢 Numbers Rounded Up            | `ceil()`                       |
+| 137 | 🔢 Numbers Rounded Down          | `floor()`                      |
+| 138 | 🔢 Numbers Rounded               | `round()`                      |
+| 139 | 🔢 Decimal Numbers Change        | `round()`                      |
+| 140 | 🔢 Numbers Become Integers       | `astype()`                     |
+| 141 | 🟩 Zero Matrix Becomes Ones      | `ones()`                       |
+| 142 | 🟩 Ones Matrix Becomes Zeros     | `zeros()`                      |
+| 143 | 🔲 Matrix Border Appears         | indexing                       |
+| 144 | 🔲 Matrix Border Disappears      | indexing                       |
+| 145 | 🟦 Matrix Center Appears         | indexing                       |
+| 146 | 🟦 Matrix Center Disappears      | indexing                       |
+| 147 | 🟩 Matrix Corners Appear         | indexing                       |
+| 148 | 🟩 Matrix Corners Disappear      | indexing                       |
+| 149 | ➕ Matrix Center Cross            | indexing                       |
+| 150 | ✖️ Matrix Corners Connect        | indexing                       |
+| 151 | 🔲 Matrix Rows Switch            | indexing                       |
+| 152 | 🔲 Matrix Columns Switch         | indexing                       |
+| 153 | 🔄 First Row Moves Down          | `roll()`                       |
+| 154 | 🔄 Last Row Moves Up             | `roll()`                       |
+| 155 | 🔄 First Column Moves Right      | `roll()`                       |
+| 156 | 🔄 Last Column Moves Left        | `roll()`                       |
+| 157 | 🟦 Matrix Row Blink              | indexing                       |
+| 158 | 🟨 Matrix Column Blink           | indexing                       |
+| 159 | 🟩 Matrix Corner Blink           | indexing                       |
+| 160 | 🔲 Matrix Center Blink           | indexing                       |
+| 161 | 🔢 Matrix Rows Count             | `arange()`                     |
+| 162 | 🔢 Matrix Columns Count          | `arange()`                     |
+| 163 | 🔢 Matrix Diagonal Count         | indexing                       |
+| 164 | 🔢 Matrix Border Count           | indexing                       |
+| 165 | 🔢 Matrix Center Count           | indexing                       |
+| 166 | 🟢 Single Pixel Appears          | indexing                       |
+| 167 | 🔴 Single Pixel Disappears       | indexing                       |
+| 168 | 🟡 Pixel Jumps Positions         | indexing                       |
+| 169 | 🔵 Pixel Swaps Positions         | indexing                       |
+| 170 | 🟣 Pixel Travels Across Grid     | indexing                       |
+| 171 | ⬛ Pixel Trail Appears            | slicing                        |
+| 172 | ⬛ Pixel Trail Disappears         | slicing                        |
+| 173 | 🟩 Row Lights Up                 | indexing                       |
+| 174 | 🟦 Column Lights Up              | indexing                       |
+| 175 | 🟨 Row Turns Off                 | indexing                       |
+| 176 | 🟥 Column Turns Off              | indexing                       |
+| 177 | 💡 One Row at a Time             | indexing                       |
+| 178 | 💡 One Column at a Time          | indexing                       |
+| 179 | 🔢 Diagonal Numbers Appear       | indexing                       |
+| 180 | 🔢 Reverse Diagonal Appears      | `flip()`                       |
+| 181 | 🎲 Random Zeros and Ones         | `random.randint()`             |
+| 182 | 🎲 Random Binary Matrix          | `random.randint()`             |
+| 183 | 🎲 Random Boolean Matrix         | `random.choice()`              |
+| 184 | 🎲 Random Choice Changes         | `random.choice()`              |
+| 185 | 🎲 Random Element Highlight      | `random.choice()`              |
+| 186 | 🎲 Random Row Highlight          | `random.randint()`             |
+| 187 | 🎲 Random Column Highlight       | `random.randint()`             |
+| 188 | 🎲 Random Position               | `random.randint()`             |
+| 189 | 🎲 Random Matrix Flip            | `random.randint()` + `flip()`  |
+| 190 | 🎲 Random Matrix Rotate          | `random.randint()` + `rot90()` |
+| 191 | 🔢 Minimum Value Highlight       | `min()`                        |
+| 192 | 🔢 Maximum Value Highlight       | `max()`                        |
+| 193 | 🔢 Minimum Moves                 | `argmin()`                     |
+| 194 | 🔢 Maximum Moves                 | `argmax()`                     |
+| 195 | 📊 Values Sorted Slowly          | `sort()`                       |
+| 196 | 📊 Smallest to Largest           | `sort()`                       |
+| 197 | 📊 Largest to Smallest           | `sort()` + slicing             |
+| 198 | 📊 Minimum Becomes Maximum       | `max()`                        |
+| 199 | 📊 Maximum Becomes Minimum       | `min()`                        |
+| 200 | 🔄 Array Cycles Forever          | `roll()`                       |
+|   # | Animation Idea                     | NumPy Concept       |
+| --: | ---------------------------------- | ------------------- |
+| 201 | 🔢 Numbers Multiply by 2           | `*2`                |
+| 202 | 🔢 Numbers Multiply by 3           | `*3`                |
+| 203 | 🔢 Numbers Divide by 2             | `/2`                |
+| 204 | 🔢 Numbers Add 10                  | `+10`               |
+| 205 | 🔢 Numbers Subtract 10             | `-10`               |
+| 206 | 🔢 Numbers Double Slowly           | multiplication      |
+| 207 | 🔢 Numbers Halve Slowly            | division            |
+| 208 | 🔢 Numbers Become Squares          | `**2`               |
+| 209 | 🔢 Numbers Become Cubes            | `**3`               |
+| 210 | 🔢 Numbers Become Roots            | `sqrt()`            |
+| 211 | 🔢 Numbers Become Absolute         | `abs()`             |
+| 212 | 🔢 Numbers Become Modulo           | `%`                 |
+| 213 | 🔢 Modulo Counter                  | `%`                 |
+| 214 | 🔢 Remainder Changes               | `%`                 |
+| 215 | 🔢 Powers Increase                 | `**`                |
+| 216 | 🔢 Powers Decrease                 | `**`                |
+| 217 | 🔢 Square Numbers Appear           | `**2`               |
+| 218 | 🔢 Cube Numbers Appear             | `**3`               |
+| 219 | 🔢 Square Root Countdown           | `sqrt()`            |
+| 220 | 🔢 Random Powers                   | `random()` + `**`   |
+| 221 | 🟦 Matrix Add 1                    | `+1`                |
+| 222 | 🟦 Matrix Subtract 1               | `-1`                |
+| 223 | 🟦 Matrix Multiply 2               | `*2`                |
+| 224 | 🟦 Matrix Divide 2                 | `/2`                |
+| 225 | 🟦 Matrix Squares                  | `**2`               |
+| 226 | 🟦 Matrix Square Root              | `sqrt()`            |
+| 227 | 🟦 Matrix Absolute Values          | `abs()`             |
+| 228 | 🟦 Matrix Modulo                   | `%`                 |
+| 229 | 🟦 Matrix Powers                   | `**`                |
+| 230 | 🟦 Matrix Negation                 | `negative()`        |
+| 231 | 🔲 Top Row Fills                   | indexing            |
+| 232 | 🔲 Bottom Row Fills                | indexing            |
+| 233 | 🔲 Left Column Fills               | indexing            |
+| 234 | 🔲 Right Column Fills              | indexing            |
+| 235 | 🔲 Top Row Clears                  | indexing            |
+| 236 | 🔲 Bottom Row Clears               | indexing            |
+| 237 | 🔲 Left Column Clears              | indexing            |
+| 238 | 🔲 Right Column Clears             | indexing            |
+| 239 | 🔲 Four Corners Fill               | indexing            |
+| 240 | 🔲 Four Corners Clear              | indexing            |
+| 241 | 🔲 Border Fills Inward             | slicing             |
+| 242 | 🔲 Border Clears Inward            | slicing             |
+| 243 | 🔲 Center Expands                  | slicing             |
+| 244 | 🔲 Center Contracts                | slicing             |
+| 245 | 🔲 Rows Expand                     | `repeat()`          |
+| 246 | 🔲 Columns Expand                  | `repeat()`          |
+| 247 | 🔲 Rows Contract                   | slicing             |
+| 248 | 🔲 Columns Contract                | slicing             |
+| 249 | 🔲 Matrix Doubles in Size          | `repeat()`          |
+| 250 | 🔲 Matrix Shrinks in Size          | slicing             |
+| 251 | 🟢 Zeros Become Random             | `random()`          |
+| 252 | 🔵 Random Becomes Zeros            | `zeros()`           |
+| 253 | 🟡 Random Becomes Ones             | `ones()`            |
+| 254 | 🟣 Ones Become Random              | `random()`          |
+| 255 | 🎲 Random Row Changes              | `random()`          |
+| 256 | 🎲 Random Column Changes           | `random()`          |
+| 257 | 🎲 Random Corner Changes           | `random()`          |
+| 258 | 🎲 Random Center Changes           | `random()`          |
+| 259 | 🎲 Random Border Changes           | `random()`          |
+| 260 | 🎲 Random Matrix Number Changes    | `random()`          |
+| 261 | 🔢 Smallest Number Appears         | `min()`             |
+| 262 | 🔢 Largest Number Appears          | `max()`             |
+| 263 | 🔢 Minimum Value Disappears        | `min()`             |
+| 264 | 🔢 Maximum Value Disappears        | `max()`             |
+| 265 | 🔢 Minimum and Maximum Swap        | `min()`, `max()`    |
+| 266 | 📊 Mean Value Appears              | `mean()`            |
+| 267 | 📊 Mean Value Changes              | `mean()`            |
+| 268 | 📊 Sum Counter                     | `sum()`             |
+| 269 | 📊 Sum Grows                       | `sum()`             |
+| 270 | 📊 Product Counter                 | `prod()`            |
+| 271 | 🔢 Array Sum Highlight             | `sum()`             |
+| 272 | 🔢 Array Mean Highlight            | `mean()`            |
+| 273 | 🔢 Array Maximum Highlight         | `max()`             |
+| 274 | 🔢 Array Minimum Highlight         | `min()`             |
+| 275 | 🔢 Array Length Grows              | `size`              |
+| 276 | 🔢 Array Length Shrinks            | `size`              |
+| 277 | 🔢 Shape Changes                   | `reshape()`         |
+| 278 | 🔢 Row Becomes Column              | `T`                 |
+| 279 | 🔢 Column Becomes Row              | `T`                 |
+| 280 | 🔄 Matrix Transpose Animation      | `T`                 |
+| 281 | 🟦 1D → 2D Matrix                  | `reshape()`         |
+| 282 | 🟦 2D → 1D Array                   | `flatten()`         |
+| 283 | 🟦 Matrix Flattening               | `flatten()`         |
+| 284 | 🟦 Array Reshaping                 | `reshape()`         |
+| 285 | 🔄 Matrix Transpose Back           | `T`                 |
+| 286 | 🔢 Array Concatenation             | `concatenate()`     |
+| 287 | 🔢 Arrays Join Together            | `concatenate()`     |
+| 288 | 🔢 Arrays Split Apart              | `split()`           |
+| 289 | 🔢 Array Split Left/Right          | `split()`           |
+| 290 | 🔢 Array Split Top/Bottom          | `split()`           |
+| 291 | 🔢 First Half + Second Half Join   | `concatenate()`     |
+| 292 | 🔢 Two Arrays Merge                | `concatenate()`     |
+| 293 | 🔢 Array Repeat Pattern            | `tile()`            |
+| 294 | 🔢 Pattern Repeats                 | `tile()`            |
+| 295 | 🔢 Number Repeats                  | `repeat()`          |
+| 296 | 🔢 Number Copies Grow              | `repeat()`          |
+| 297 | 🔲 Small Matrix Becomes Big Matrix | `tile()`            |
+| 298 | 🔲 Pattern Tiles Across Screen     | `tile()`            |
+| 299 | 🔄 Pattern Repeats and Shifts      | `tile()` + `roll()` |
+| 300 | 🔢 Two Arrays Alternate            | slicing             |
+
 
 
 | #  | Animation Idea              | NumPy Concepts                  |
