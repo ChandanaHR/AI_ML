@@ -1,0 +1,157 @@
+|   # | Animation Idea                   | NumPy Concept            |
+| --: | -------------------------------- | ------------------------ |
+|   1 | 🔢 Numbers Counting              | `arange()`               |
+|   2 | 🔄 Numbers Reverse               | slicing `[::-1]`         |
+|   3 | ➕ Numbers Increasing             | `+`                      |
+|   4 | ➖ Numbers Decreasing             | `-`                      |
+|   5 | ✖️ Numbers Multiplying           | `*`                      |
+|   6 | ➗ Numbers Dividing               | `/`                      |
+|   7 | 🔢 Even Numbers                  | `arange()`               |
+|   8 | 🔢 Odd Numbers                   | `arange()`               |
+|   9 | 🔢 Numbers Jumping               | `arange()`               |
+|  10 | 🔢 Numbers Skipping              | slicing                  |
+|  11 | 🔀 Numbers Shuffle               | `shuffle()`              |
+|  12 | 🔄 Numbers Reverse Shuffle       | `flip()`                 |
+|  13 | 🎲 Random Number Changes         | `random.randint()`       |
+|  14 | 🎲 Random Numbers Roll           | `random.randint()`       |
+|  15 | 🎯 Random Number Target          | `random.randint()`       |
+|  16 | 🔢 Numbers Appear One-by-One     | slicing                  |
+|  17 | 🔢 Numbers Disappear One-by-One  | slicing                  |
+|  18 | 🔢 Numbers Slide Right           | `roll()`                 |
+|  19 | 🔢 Numbers Slide Left            | `roll()`                 |
+|  20 | 🔢 Numbers Wrap Around           | `roll()`                 |
+|  21 | 🟦 Array Appears                 | `array()`                |
+|  22 | 🟦 Array Disappears              | slicing                  |
+|  23 | 🔄 Array Reversal                | `flip()`                 |
+|  24 | 🔀 Array Shuffle                 | `shuffle()`              |
+|  25 | ↔️ Array Flip                    | `flip()`                 |
+|  26 | 🔁 Array Rotation                | `rot90()`                |
+|  27 | 🔢 Array Sorting                 | `sort()`                 |
+|  28 | 🔢 Array Reverse Sort            | `sort()` + slicing       |
+|  29 | 📈 Array Values Grow             | `+`                      |
+|  30 | 📉 Array Values Shrink           | `-`                      |
+|  31 | 🟢 Array Values Pulse            | `*`                      |
+|  32 | 🔵 Array Values Fade             | multiplication           |
+|  33 | 🟨 Array Values Highlight        | indexing                 |
+|  34 | 🟥 Array Values Switch           | indexing                 |
+|  35 | 🔲 Matrix Appears                | `reshape()`              |
+|  36 | 🔲 Matrix Disappears             | slicing                  |
+|  37 | 🔢 Matrix Counting               | `arange()` + `reshape()` |
+|  38 | 🔄 Matrix Reverse                | `flip()`                 |
+|  39 | ↔️ Matrix Horizontal Flip        | `flip(axis=1)`           |
+|  40 | ↕️ Matrix Vertical Flip          | `flip(axis=0)`           |
+|  41 | 🔁 Matrix Rotate                 | `rot90()`                |
+|  42 | 🔁 Matrix Rotate Back            | `rot90()`                |
+|  43 | 🎲 Random Matrix                 | `random.rand()`          |
+|  44 | 🎲 Random Matrix Refresh         | `random.rand()`          |
+|  45 | 🔢 Matrix Numbers Increase       | `+`                      |
+|  46 | 🔢 Matrix Numbers Decrease       | `-`                      |
+|  47 | 🔢 Matrix Numbers Double         | `*2`                     |
+|  48 | 🔢 Matrix Numbers Halve          | `/2`                     |
+|  49 | 🟩 Matrix Fill Row-by-Row        | slicing                  |
+|  50 | 🟦 Matrix Fill Column-by-Column  | slicing                  |
+|  51 | 🟨 Matrix Clear Row-by-Row       | slicing                  |
+|  52 | 🟥 Matrix Clear Column-by-Column | slicing                  |
+|  53 | 🔲 Matrix Diagonal Appears       | `eye()`                  |
+|  54 | ❌ X Matrix Appears               | `eye()` + `flip()`       |
+|  55 | ➕ Plus Matrix Appears            | indexing                 |
+|  56 | ➖ Minus Matrix Appears           | indexing                 |
+|  57 | 🔲 Identity Matrix Pulse         | `eye()`                  |
+|  58 | 🔲 Identity Matrix Flip          | `flip()`                 |
+|  59 | 🔺 Values Above Threshold        | `where()`                |
+|  60 | 🔻 Values Below Threshold        | `where()`                |
+|  61 | 🟢 Values Become Zero            | `where()`                |
+|  62 | 🔴 Values Become One             | `where()`                |
+|  63 | 🟡 Values Swap                   | `where()`                |
+|  64 | 🎯 One Value Highlight           | indexing                 |
+|  65 | 🎯 Highlight Moves               | indexing                 |
+|  66 | 🔵 Dot Moves Right               | `arange()`               |
+|  67 | 🔵 Dot Moves Left                | slicing                  |
+|  68 | 🔵 Dot Moves Up                  | `arange()`               |
+|  69 | 🔵 Dot Moves Down                | slicing                  |
+|  70 | 🔵 Dot Appears                   | `arange()`               |
+|  71 | 🔵 Dot Disappears                | slicing                  |
+|  72 | 🟢 Dot Grows                     | `arange()`               |
+|  73 | 🔴 Dot Shrinks                   | slicing                  |
+|  74 | 🟣 Dot Pulses                    | multiplication           |
+|  75 | ⭐ Stars Appear                   | `random()`               |
+|  76 | ⭐ Stars Disappear                | slicing                  |
+|  77 | ⭐ Stars Blink                    | `random()`               |
+|  78 | ✨ Random Sparkles                | `random()`               |
+|  79 | 🎲 Random Pixels                 | `random.rand()`          |
+|  80 | 🎲 Random Pixel Refresh          | `random.rand()`          |
+|  81 | ⚫ Black-to-White Matrix          | `linspace()`             |
+|  82 | ⚪ White-to-Black Matrix          | `linspace()`             |
+|  83 | 🌈 Simple Color Fade             | `linspace()`             |
+|  84 | 🌈 Color Increase                | `linspace()`             |
+|  85 | 🌈 Color Decrease                | `linspace()`             |
+|  86 | 📊 Bar Grows                     | `arange()`               |
+|  87 | 📊 Bar Shrinks                   | slicing                  |
+|  88 | 📊 Bars Appear One-by-One        | slicing                  |
+|  89 | 📊 Bars Disappear One-by-One     | slicing                  |
+|  90 | 📊 Bars Reverse                  | `flip()`                 |
+|  91 | 📊 Bars Shuffle                  | `shuffle()`              |
+|  92 | 📊 Random Bars                   | `random.randint()`       |
+|  93 | 🟦 Square Grows                  | `arange()`               |
+|  94 | 🟦 Square Shrinks                | slicing                  |
+|  95 | 🔲 Grid Appears                  | `zeros()`                |
+|  96 | 🔲 Grid Disappears               | `zeros()`                |
+|  97 | 🔄 Grid Shifts                   | `roll()`                 |
+|  98 | 🔄 Matrix Shifts                 | `roll()`                 |
+|  99 | 💫 Values Pulse In-Out           | `sin()`                  |
+| 100 | 🌊 Simple Wave                   | `sin()`                  |
+
+
+| #  | Animation Idea              | NumPy Concepts                  |
+| -- | --------------------------- | ------------------------------- |
+| 1  | 💥 Matrix Explosion         | `array`, `reshape`, `random`    |
+| 2  | 🌀 Numbers Form a Spiral    | `arange`, `reshape`, `indexing` |
+| 3  | 🌊 Matrix Wave              | `sin`, `cos`, `broadcasting`    |
+| 4  | 🔥 Random Number Fire       | `random`, `thresholding`        |
+| 5  | 🧬 Matrix DNA               | `sin`, `cos`, `linspace`        |
+| 6  | ⚡ Lightning Matrix          | `random`, `where`               |
+| 7  | 🌌 NumPy Star Field         | `random`, `array`               |
+| 8  | ☄️ Falling Particles        | `random`, `arithmetic`          |
+| 9  | 🧲 Numbers Attract to Point | `broadcasting`, subtraction     |
+| 10 | 🎯 Numbers Hit a Target     | `arange`, arithmetic`           |
+| 11 | 🌈 RGB Matrix Flow          | `random`, arrays                |
+| 12 | 💫 Expanding Circle         | `linspace`, `sin`, `cos`        |
+| 13 | 🌀 Rotating Points          | `sin`, `cos`                    |
+| 14 | 🔵 Growing Dot              | `arange`, arithmetic            |
+| 15 | 🌧️ Matrix Rain             | `random`, indexing              |
+| 16 | ✨ Sparkle Explosion         | `random`, thresholding          |
+| 17 | 🔺 Triangle Wave            | `arange`, modulo                |
+| 18 | 🟦 Moving Matrix Blocks     | `reshape`, slicing              |
+| 19 | 🟢 Pulsating Grid           | `sin`, broadcasting             |
+| 20 | 🔴 Random Dot Blink         | `random`, indexing              |
+| 21 | 🧲 Magnetic Grid            | broadcasting, distance          |
+| 22 | 🌪️ NumPy Vortex            | `sin`, `cos`, coordinates       |
+| 23 | 🌊 Ripple Effect            | `sin`, distance                 |
+| 24 | ☀️ Sun Rays                 | `linspace`, `cos`               |
+| 25 | 🌙 Orbiting Points          | `sin`, `cos`                    |
+| 26 | ⭐ Star Burst                | `random`, arithmetic            |
+| 27 | 🧊 Matrix Cube Illusion     | `reshape`, indexing             |
+| 28 | 🔥 Heatmap Pulse            | `random`, `maximum`             |
+| 29 | 🌈 Color Wave               | `sin`, broadcasting             |
+| 30 | 🌀 Spiral Galaxy            | `linspace`, `sin`, `cos`        |
+| 31 | 💥 Center Explosion         | `random`, arithmetic            |
+| 32 | 🎆 Firework Burst           | `random`, coordinates           |
+| 33 | 🌱 Growing Matrix           | `arange`, slicing               |
+| 34 | 🧱 Falling Blocks           | `random`, indexing              |
+| 35 | ⚫ Black Hole Pull           | broadcasting, distance          |
+| 36 | 💧 Water Drop Ripple        | `sin`, distance                 |
+| 37 | ⚡ Electric Grid             | `random`, thresholding          |
+| 38 | 🕸️ Expanding Web           | coordinates, distance           |
+| 39 | 🎯 Circular Target Pulse    | `linspace`, distance            |
+| 40 | 🌌 Galaxy Rotation          | `sin`, `cos`, arrays            |
+| 41 | 🟣 Pulsing Ring             | `sin`, `linspace`               |
+| 42 | 🔥 Lava Flow                | `random`, `maximum`             |
+| 43 | 🧩 Matrix Tiles Shuffle     | `reshape`, indexing             |
+| 44 | 🎲 Random Number Shuffle    | `random`, permutation           |
+| 45 | 🌀 Wave Spiral              | `sin`, `cos`, broadcasting      |
+| 46 | 💎 Diamond Pulse            | `abs`, broadcasting             |
+| 47 | ❤️ Heartbeat Matrix         | `sin`, `arange`                 |
+| 48 | ☄️ Meteor Trail             | `arange`, slicing               |
+| 49 | 🌠 Shooting Stars           | `random`, coordinates           |
+| 50 | 💫 NumPy Particle Explosion | `random`, arrays, arithmetic    |
+
