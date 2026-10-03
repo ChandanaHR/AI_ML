@@ -628,6 +628,325 @@ Pandas animation
 | 300 | Raw Data → Clean Data            |
 
 
+Matplotlib animations
+LEVEL 1 — Basic Shape Animations
+1–50
+Expanding circle
+Contracting circle
+Bouncing circle
+Moving circle
+Rotating circle
+Pulsating circle
+Circle orbiting around a point
+Two circles orbiting each other
+Multiple circles orbiting
+Concentric circles expanding
+Concentric circles contracting
+Circle trail
+Circle leaving fading trail
+Circle bouncing inside a box
+Circle moving through a maze
+Square moving horizontally
+Square moving vertically
+Bouncing square
+Rotating square
+Pulsating square
+Expanding square
+Contracting square
+Rectangle sliding
+Rotating rectangle
+Bouncing rectangle
+Triangle moving
+Rotating triangle
+Expanding triangle
+Contracting triangle
+Bouncing triangle
+Polygon rotation
+Polygon expansion
+Polygon contraction
+Polygon sides increasing
+Polygon sides decreasing
+Star rotating
+Star expanding
+Star shrinking
+Star bouncing
+Star pulsating
+Heart expanding
+Heart shrinking
+Heart bouncing
+Heart rotating
+Heart pulsating
+Diamond rotating
+Diamond bouncing
+Hexagon rotating
+Octagon rotating
+Multiple shapes rotating
+🌊 LEVEL 1 — Wave & Curve Animations
+51–100
+Sine wave drawing
+Sine wave moving
+Sine wave scrolling
+Cosine wave moving
+Tangent wave animation
+Sine wave amplitude changing
+Sine wave frequency changing
+Sine wave phase shifting
+Two sine waves moving
+Three sine waves moving
+Sine and cosine crossing
+Wave travelling left
+Wave travelling right
+Wave bouncing from boundaries
+Wave expanding
+Wave contracting
+Wave pulse
+Wave with fading tail
+Wave with moving dots
+Wave with moving particles
+Circular wave
+Expanding circular wave
+Multiple circular waves
+Ripple from center
+Multiple ripple sources
+Ripple collision
+Water drop ripple
+Ripple expanding outward
+Ripple disappearing
+Spiral wave
+Expanding spiral
+Contracting spiral
+Rotating spiral
+Double spiral
+Triple spiral
+Wave forming a circle
+Wave forming a flower
+Wave changing into a spiral
+Spiral changing into a circle
+Moving parabola
+Expanding parabola
+Contracting parabola
+Moving cubic curve
+Growing exponential curve
+Shrinking exponential curve
+Moving logarithmic curve
+Animated tangent line
+Moving tangent point
+Animated curve intersection
+Two curves chasing each other
+✨ LEVEL 1 — Scatter & Particle Visuals
+101–150
+Random particles appearing
+Random particles disappearing
+Particles moving upward
+Particles moving downward
+Particles moving sideways
+Particles floating randomly
+Particles bouncing
+Particles spreading outward
+Particles converging inward
+Particle explosion
+Particle implosion
+Particle fountain
+Particle rain
+Particle snowfall
+Particle firework
+Multiple fireworks
+Particle spiral
+Particle vortex
+Particle tornado
+Particle orbit
+Particles orbiting a center
+Particles orbiting multiple centers
+Particle wave
+Particle ripple
+Particle pulse
+Particle heartbeat pattern
+Particle breathing effect
+Particle flow from left to right
+Particle flow from right to left
+Particle flow upward
+Particle flow downward
+Particle stream splitting
+Particle streams merging
+Particle tunnel
+Particle tunnel zoom
+Particle tunnel rotation
+Particle galaxy
+Particle galaxy rotation
+Particle galaxy expansion
+Particle galaxy contraction
+Particles forming a circle
+Particles forming a triangle
+Particles forming a square
+Particles forming a star
+Particles forming a heart
+Particles forming a flower
+Particles forming a spiral
+Particles forming a wave
+Particles randomly changing shape
+Random particles → organized pattern
+🌌 LEVEL 2 — Attractive Particle & Space Visuals
+151–200
+Galaxy rotation
+Spiral galaxy formation
+Galaxy expanding
+Galaxy contracting
+Star field moving
+Star field zoom
+Star field rotation
+Shooting stars
+Multiple shooting stars
+Meteor trail
+Comet travelling across screen
+Comet orbit
+Comet trail fading
+Planet orbit
+Two planets orbiting
+Multiple planets orbiting
+Planet with particle rings
+Planet ring rotation
+Solar-system-style orbit
+Orbit trails
+Expanding universe
+Contracting universe
+Stars appearing randomly
+Stars disappearing
+Twinkling stars
+Star brightness pulse
+Star explosion
+Cosmic particle explosion
+Cosmic dust movement
+Cosmic dust vortex
+Space tunnel
+Hyperspace tunnel
+Warp-speed particle effect
+Moving star tunnel
+Rotating star field
+Circular star formation
+Spiral star formation
+Galaxy collision-style visual
+Nebula-style particle movement
+Nebula expanding
+Nebula rotating
+Nebula pulse
+Cosmic wave
+Cosmic ripple
+Orbiting particle rings
+Multiple orbital rings
+Rotating orbital system
+Planet trail animation
+Satellite orbit animation
+Space particles forming a spiral
+🔥 LEVEL 2 — Fire, Smoke & Energy-Style Visuals
+201–230
+Fire particle fountain
+Rising fire particles
+Flame-like wave
+Flame particles moving upward
+Flame expanding
+Flame shrinking
+Smoke particles rising
+Smoke drifting sideways
+Smoke vortex
+Smoke spiral
+Smoke disappearing
+Smoke expanding
+Energy pulse
+Energy wave
+Energy ring expanding
+Energy ring contracting
+Multiple energy rings
+Energy burst
+Energy particles flowing
+Energy vortex
+Lightning-style line animation
+Lightning branching animation
+Lightning pulse
+Electric wave
+Electric particle flow
+Electric ring
+Shockwave animation
+Circular shockwave
+Explosion shockwave
+Multiple shockwaves
+🌸 LEVEL 2 — Nature & Organic Visuals
+231–260
+Flower blooming
+Flower closing
+Petals rotating
+Petals expanding
+Flower growing from center
+Rotating flower
+Flower made from sine waves
+Animated rose curve
+Rose petals changing
+Spiral flower
+Multiple flowers blooming
+Wind-blown flower effect
+Falling leaves
+Leaves drifting sideways
+Leaves rotating while falling
+Leaf spiral
+Falling petals
+Petals floating upward
+Snowfall
+Snowflakes rotating
+Snow particles accumulating
+Rainfall
+Rain with wind
+Rain ripple effect
+Water droplets falling
+Water droplets bouncing
+Water ripple from droplets
+Ocean-wave animation
+Multiple ocean waves
+Sunset-style moving wave scene
+🔵 LEVEL 2 — Geometric & Pattern Animations
+261–280
+Rotating geometric pattern
+Expanding geometric pattern
+Contracting geometric pattern
+Rotating triangles
+Rotating squares
+Rotating hexagons
+Rotating polygons
+Nested rotating squares
+Nested rotating triangles
+Nested rotating polygons
+Geometric tunnel
+Geometric zoom
+Geometric kaleidoscope
+Symmetric rotating pattern
+Spiral geometric pattern
+Flower geometric pattern
+Circular geometric pattern
+Hexagonal pattern movement
+Grid distortion animation
+Grid wave animation
+🎬 LEVEL 2 — Highly Attractive Short-Form Visuals
+281–300
+Black background + glowing particle field
+Particles forming a spiral
+Particles forming a flower
+Particles forming a heart
+Particles forming a galaxy
+Particles exploding from the center
+Particles collapsing into the center
+Circular rings expanding continuously
+Multiple rings creating a ripple
+Rotating neon-style geometric pattern
+Infinite-looking particle tunnel
+Galaxy rotating with particle trails
+Shooting stars across a particle sky
+Firework → particles → disappear
+Flower blooming from a single point
+Wave transforming into a spiral
+Spiral transforming into a flower
+Random particles → perfect circle
+Random particles → galaxy
+Random particles → explosion → spiral → disappear
+
+
 
 
 | #  | Animation Idea              | NumPy Concepts                  |
